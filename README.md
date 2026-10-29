@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-swisstopo is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.
-- https://www.swisstopo.admin.ch/
+Swisstopo, the Federal Office of Topography, is Switzerland’s national geoinformation centre. It provides comprehensive geospatial data, maps, and services to the public, businesses, and authorities. The agency promotes open, transparent, and reusable geodata, supporting applications ranging from environmental monitoring to urban planning and navigation.
+
+**Areas:** Geodata · Government · Switzerland · Mapping · OpenData
+
+## swisstopo on APIs.io
+
+Everything profiled for swisstopo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swisstopo/](https://apis.io/providers/swisstopo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [swisstopo Layers API](https://apis.io/apis/swisstopo/swisstopo-layers-api/) — Endpoints to list layers and their filters
+- [swisstopo Vocabularies API](https://apis.io/apis/swisstopo/swisstopo-vocabularies-api/) — Endpoints for listing vocabularies and their terms
+- [swisstopo WMS API](https://apis.io/apis/swisstopo/swisstopo-wms-api/) — Endpoints to obtain WMS links for filtered layers
+- [swisstopo WMTS API](https://apis.io/apis/swisstopo/swisstopo-wmts-api/) — Endpoints to obtain WMTS layer source data
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Swisstopo Agentic Access](https://apis.io/agentic-access/swisstopo/swisstopo-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DefaultFiltersResponse](https://apis.io/schemas/swisstopo/swisstopo-default-filters-response/)
+- [inline_response_200](https://apis.io/schemas/swisstopo/swisstopo-inline-response-200/)
+- [inline_response_200_1](https://apis.io/schemas/swisstopo/swisstopo-inline-response-200-1/)
+- [WmsRequest](https://apis.io/schemas/swisstopo/swisstopo-wms-request/)
+- [WmsResponse](https://apis.io/schemas/swisstopo/swisstopo-wms-response/)
+- [WmtsResponse](https://apis.io/schemas/swisstopo/swisstopo-wmts-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Swisstopo Context](https://apis.io/jsonld/swisstopo/swisstopo-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [swisstopo API Rules](https://apis.io/rules/swisstopo/swisstopo-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Swisstopo Authentication](https://apis.io/security/swisstopo/swisstopo-authentication/)
+- [Swisstopo Domain Security](https://apis.io/security/swisstopo/swisstopo-domain-security/)
+- [Swisstopo Vulnerability Disclosure](https://apis.io/security/swisstopo/swisstopo-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.swisstopo.admin.ch/)
+- [Documentation](https://www.swisstopo.admin.ch/en/documentation)
+- [Support](https://www.swisstopo.admin.ch/en/contactswisstopo)
+- [Blog](https://www.swisstopo.admin.ch/en/news-overview)
+- [Security](https://www.bacs.admin.ch/en/framework-conditions-and-rules-cvd)
+- [Terms of service](https://www.swisstopo.admin.ch/en/terms-and-conditions)
+- [Privacy policy](https://www.swisstopo.admin.ch/en/legal-framework)
+- [GitHub](https://github.com/swisstopo)
+
+## API Evangelist rating
+
+**Kin Score 46.5** — developing · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 58.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 30.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swisstopo/](https://apis.io/providers/swisstopo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for swisstopo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swisstopo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
